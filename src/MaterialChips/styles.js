@@ -9,7 +9,6 @@ const styles = theme => ({
   formControl: {
     transition: '.3s ease',
     display: 'flex',
-    height: 43,
     marginBottom: theme.spacing.unit / 2,
   },
   inputContainer: {
@@ -17,14 +16,13 @@ const styles = theme => ({
     flex: '1 0 auto',
   },
   chipsWrapper: {
-    overflowX: 'hidden',
     position: 'relative',
     flex: '1 0 auto',
   },
   chips: {
-    position: 'absolute',
+    position: 'relative',
     minWidth: '100%',
-    flexWrap: 'nowrap',
+    flexWrap: 'wrap',
     marginTop: 15,
     transition: '.3s ease',
     display: 'inline-flex',
@@ -37,6 +35,7 @@ const styles = theme => ({
   chip: {
     display: 'inline-flex',
     height: 20,
+    padding: 4,
     margin: theme.spacing.unit / 4,
     '&:hover:not($chipFocus) > svg': {
       color: theme.palette.primary[400],

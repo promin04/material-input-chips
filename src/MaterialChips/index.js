@@ -629,7 +629,7 @@ class MaterialChips extends Component {
           </InputLabel>
 
           <div className={classes.chipsWrapper} ref={this.registerRef('chipsWrapper')}>
-            <div className={classes.chips} ref={this.registerRef('chips')} style={{ transform: `translateX(${this.state.translateX}px)` }}>
+            <div className={classes.chips} ref={this.registerRef('chips')} >
 
               {this.renderChips()}
 
