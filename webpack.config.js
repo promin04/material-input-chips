@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 var WebpackBundleSizeAnalyzerPlugin = require('webpack-bundle-size-analyzer').WebpackBundleSizeAnalyzerPlugin;
 
-const prod = process.env.NODE_ENV === 'production';
+const prod = true;
 
 const externals = [];
 
