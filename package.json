@@ -2,14 +2,8 @@
   "name": "material-input-chips",
   "version": "1.4.5",
   "description": "A chip input field using Material-UI@next.",
-  "homepage": "https://rodrigonehring.github.io/material-input-chips/styleguide/",
-  "main": "dist/material-input-chips.js",
   "author": "Rodrigo Eduardo Nehring",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rodrigonehring/material-input-chips.git"
-  },
   "scripts": {
     "build": "webpack",
     "build:dist": "NODE_ENV=production webpack",
