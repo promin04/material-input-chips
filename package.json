@@ -1,6 +1,6 @@
 {
   "name": "material-input-chips",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "A chip input field using Material-UI@next.",
   "author": "Rodrigo Eduardo Nehring",
   "license": "MIT",
