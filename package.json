@@ -12,7 +12,7 @@
   },
   "scripts": {
     "postinstall": "npm run build",
-    "build": "npm run clean && mkdir dist && webpack",
+    "build": "webpack",
     "build:dist": "NODE_ENV=production webpack",
     "prepublish": "npm run build",
     "clean": "rm -rf dist",
@@ -59,7 +59,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "material-ui": "^1.0.0-beta.24",
+    "material-ui": "next",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-styleguidist": "^6.0.31",
@@ -67,7 +67,6 @@
     "webpack-bundle-size-analyzer": "^2.7.0"
   },
   "peerDependencies": {
-    "material-ui": ">= 1.0.0",
     "react": "^15.6.1 || ^16.0.0",
     "react-dom": "^15.6.1 || ^16.0.0"
   },
